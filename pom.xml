@@ -73,7 +73,7 @@
 				</configuration>
 			</plugin>
 		</plugins>
-		<finalName>cashBox-application</finalName>
+		<finalName>cashbox-application</finalName>
 	</build>
 
 </project>
