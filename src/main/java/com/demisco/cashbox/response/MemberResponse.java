@@ -1,23 +1,15 @@
-package com.demisco.cashbox.model;
+package com.demisco.cashbox.response;
 
 import lombok.AllArgsConstructor;
 import lombok.Data;
 import lombok.NoArgsConstructor;
 import lombok.experimental.SuperBuilder;
 
-import javax.persistence.Entity;
-import javax.persistence.GeneratedValue;
-import javax.persistence.GenerationType;
-import javax.persistence.Id;
-
-@Entity
 @Data
 @SuperBuilder
-@AllArgsConstructor
 @NoArgsConstructor
-public class Member {
-    @Id
-    @GeneratedValue(strategy = GenerationType.IDENTITY)
+@AllArgsConstructor
+public class MemberResponse {
     private Long id;
     private String firstName;
     private String lastName;
