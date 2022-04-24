@@ -14,6 +14,7 @@ import static org.springframework.http.HttpStatus.OK;
 
 @RestController
 @RequestMapping("api/v1/member")
+@CrossOrigin
 public class MemberController {
     private final MemberService memberService;
     private final ValidationErrorService validationErrorService;
